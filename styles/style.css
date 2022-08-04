@@ -1,8 +1,16 @@
 html{
 font-size: 10px;    
 font-family: "Helvetica Neue",Helvetica,Calibri,sans-serif;
-max-width: 1200px;
+
 margin: 1rem;
+}
+
+h1 {
+    text-align: center;
+}
+.initial_description {
+    padding-left: 3rem;
+    padding-block: 3rem;
 }
 
 h2 {
@@ -10,10 +18,34 @@ h2 {
 }
 body{
     font-size: 1.8rem;
+    max-width: 1200px;
+    width: auto;
+    margin: auto;
+    box-shadow: 0px 0px 5px black;
+    padding: 1rem;
+
 }
 
 .projects{
     border: 0.5rem solid blue;
-    margin: 1rem;
+    margin: 2rem;
     padding: 0.5rem;
+}
+
+.projects:hover{
+    background-color: rgb(177, 213, 230);
+}
+
+a:hover{
+    background-color:rgb(49, 8, 199);
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 767px){
+    a:hover{
+        padding: 0.1rem;
+
+    }
 }
