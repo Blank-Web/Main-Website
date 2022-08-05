@@ -2,6 +2,7 @@ html{
 font-size: 10px;    
 font-family: "Helvetica Neue",Helvetica,Calibri,sans-serif;
 background-color: rgb(209, 233, 255);
+scroll-behavior: smooth;
 
 margin: 1rem;
 }
@@ -60,7 +61,7 @@ img:not(:hover){
 }
 
 .projects:hover{
-    background-color: rgb(177, 215, 230);
+    background-color: rgb(209, 233, 255);
     transition: 0.2s;
 }
 
@@ -77,6 +78,13 @@ a:hover{
     padding: 1rem;
     border-radius: 0.5rem;
     transition: 0.2s;
+}
+
+.table-of-contents:hover{
+    padding: 0px;
+    color: rgb(41, 110, 238);
+    background-color: white;
+
 }
 
 @media screen and (max-width: 767px){
