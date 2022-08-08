@@ -1,14 +1,21 @@
 html{
 font-size: 10px;    
 font-family: "Helvetica Neue",Helvetica,Calibri,sans-serif;
-background-color: rgb(209, 233, 255);
+background-image: linear-gradient(to right, rgba(38, 195, 201, 0.6), rgba(27, 53, 170, 0.6)), url(../images/hector-j-rivas-1FxMET2U5dU-unsplash.jpg); 
+background-position: right, top left;
+background-repeat: repeat-y;
+background-size: cover;
 scroll-behavior: smooth;
 
-margin: 1rem;
 }
+
 
 h1 {
     text-align: center;
+    background-color: rgb(216, 216, 216);
+    padding: 1.5rem;
+    max-width: 100%;
+
 }
 .initial_description {
     padding-left: 3rem;
@@ -18,20 +25,30 @@ h1 {
 h2 {
     font-size: 2.4rem;
 }
+
+h2, h3 {
+    margin: 1rem;
+}
+
 body{
     font-size: 1.8rem;
     max-width: 1200px;
     width: auto;
     margin: auto;
     box-shadow: 0px 0px 5px black;
-    padding: 1rem;
     background-color: white;
+    margin-top: 0px;
+    padding-top: 0px;
 
+}
+
+p{
+    margin: 2rem;
 }
 
 img {
     display: block;
-    max-width: 70%;
+    max-width: 60%;
     margin: auto;
     border: 0.2rem solid rgb(0, 0, 0);
   
@@ -41,13 +58,13 @@ img {
 img:hover{
     box-shadow: 0px 0px 9px rgb(253, 253, 225);
     border: 0.1rem solid rgb(0, 0, 0);
-    max-width: 90%;
+    max-width: 70%;
     transition: 0.2s;
 }
 
 img:not(:hover){
     display: block;
-    max-width: 70%;
+    max-width: 60%;
     margin: auto;
     border: 0.2rem solid rgb(0, 0, 0);
     transition: 0.2s;
@@ -55,9 +72,9 @@ img:not(:hover){
 
 
 .projects{
-    border: 0.5rem solid blue;
+    border: 0.5rem solid rgb(1, 45, 139);
     margin: 2rem;
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 .projects:hover{
@@ -66,14 +83,14 @@ img:not(:hover){
 }
 
 .projects:not(:hover){
-    border: 0.5rem solid blue;
+    border: 0.5rem solid rgb(1, 45, 139);
     margin: 2rem;
     padding: 0.5rem;
     transition: 0.2s;
 }
 
 a:hover{
-    background-color:rgb(49, 8, 199);
+    background-color:rgb(8, 75, 199);
     color: white;
     padding: 1rem;
     border-radius: 0.5rem;
@@ -85,6 +102,10 @@ a:hover{
     color: rgb(41, 110, 238);
     background-color: white;
 
+}
+
+.table-of-contents{
+    line-height: 200%;;
 }
 
 @media screen and (max-width: 767px){
